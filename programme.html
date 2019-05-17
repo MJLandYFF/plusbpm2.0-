@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>PlusBPM - Programme</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="RanGO Project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="images/favicon-Plus2.ico" type="image/x-icon">
+	<link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="plugins/slick-1.8.0/slick.css">
+	<link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="styles/programme_styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/programme_responsive.css">
+</head>
+
+<body>
+
+	<div class="super_container">
+
+		<!-- Header -->
+
+		<header class="header d-flex flex-row justify-content-end align-items-center trans_200">
+
+			<!-- Logo -->
+			<div class="logo mr-auto">
+				<a href="index.html">Plus<span>BPM</span></a>
+			</div>
+
+			<!-- Navigation -->
+			<nav class="main_nav justify-self-end text-right">
+				<ul>
+					<li><a href="index.html">首页</a></li>
+					<li><a href="process.html">流程</a></li>
+					<li><a href="app.html">应用</a></li>
+					<li><a href="mobile.html">移动</a></li>
+					<li class="active"><a href="#">方案</a></li>
+					<li><a href="contact.html">联系我们</a></li>
+				</ul>
+
+				<!-- Search -->
+				<div class="search">
+					<div class="search_content d-flex flex-column align-items-center justify-content-center">
+						<div class="search_button d-flex flex-column align-items-center justify-content-center">
+							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18px" height="18px"
+								viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+								<g>
+									<g>
+										<path class="search_path" fill="#FFFFFF" d="M89.354,10.609c-14.144-14.146-37.157-14.146-51.301,0c-6.852,6.853-10.625,15.964-10.625,25.655
+										c0,8.829,3.132,17.174,8.87,23.771l-4.32,4.321l-4.402-4.403c-0.482-0.482-1.137-0.754-1.819-0.754s-1.337,0.271-1.819,0.754
+										L3.31,80.584c-2.148,2.147-3.331,5.004-3.331,8.042s1.183,5.895,3.331,8.042C5.457,98.817,8.313,100,11.35,100
+										c3.038,0,5.894-1.184,8.041-3.331l20.627-20.631c0.482-0.482,0.753-1.137,0.753-1.819s-0.271-1.337-0.753-1.819l-4.403-4.403
+										l4.322-4.322c6.795,5.902,15.28,8.855,23.766,8.855c9.289,0,18.579-3.537,25.65-10.61c6.852-6.853,10.625-15.963,10.625-25.654
+										C99.979,26.573,96.205,17.462,89.354,10.609z M15.753,93.029c-1.176,1.177-2.739,1.824-4.403,1.824
+										c-1.663,0-3.227-0.648-4.403-1.824c-1.176-1.176-1.823-2.74-1.823-4.403s0.647-3.228,1.824-4.403L18.458,72.71l8.805,8.807
+										L15.753,93.029z M30.902,77.878l-8.805-8.807l3.659-3.66l8.806,8.808L30.902,77.878z M85.715,58.28
+										c-12.137,12.14-31.886,12.14-44.023,0c-5.88-5.881-9.118-13.699-9.118-22.016c0-8.316,3.238-16.135,9.118-22.016
+										c6.069-6.069,14.041-9.104,22.012-9.104c7.972,0,15.943,3.035,22.013,9.104c5.88,5.881,9.117,13.699,9.117,22.016
+										S91.596,52.399,85.715,58.28z"></path>
+									</g>
+								</g>
+								<g>
+									<g>
+										<path class="search_path" fill="#FFFFFF" d="M81.47,18.495c-9.797-9.798-25.736-9.798-35.533,0c-9.796,9.798-9.796,25.741,0,35.539
+										c4.898,4.898,11.333,7.349,17.766,7.349c6.435,0,12.868-2.45,17.767-7.349l0,0C91.266,44.235,91.266,28.293,81.47,18.495z
+										 M77.831,50.395c-7.79,7.791-20.466,7.791-28.256,0c-7.79-7.792-7.79-20.469,0-28.261c3.896-3.896,9.011-5.843,14.128-5.843
+										c5.116,0,10.233,1.948,14.128,5.843C85.621,29.925,85.621,42.603,77.831,50.395z"></path>
+									</g>
+								</g>
+								<g>
+									<g>
+										<path class="search_path" fill="#FFFFFF" d="M73.283,26.683c-5.282-5.283-13.877-5.283-19.16,0c-1.004,1.005-1.004,2.634,0,3.639
+										c1.005,1.005,2.634,1.005,3.639,0c3.276-3.276,8.607-3.276,11.884,0c0.502,0.503,1.16,0.754,1.818,0.754
+										c0.659,0,1.317-0.251,1.819-0.754C74.288,29.317,74.288,27.688,73.283,26.683z"></path>
+									</g>
+								</g>
+							</svg>
+						</div>
+
+						<form id="search_form" class="search_form bez_1">
+							<input type="search" class="search_input bez_1">
+						</form>
+
+					</div>
+				</div>
+			</nav>
+
+			<!-- Hamburger -->
+			<div class="hamburger_container bez_1">
+				<i class="fas fa-bars trans_200"></i>
+			</div>
+
+		</header>
+
+		<!-- Menu -->
+
+		<div class="menu_container">
+			<div class="menu menu_mm text-right">
+				<div class="menu_close"><i class="far fa-times-circle trans_200"></i></div>
+				<ul class="menu_mm">
+					<li class="menu_mm"><a href="index.html">首页</a></li>
+					<li class="menu_mm"><a href="process.html">流程</a></li>
+					<li class="menu_mm"><a href="app.html">应用</a></li>
+					<li class="menu_mm"><a href="mobile.html">移动</a></li>
+					<li class="menu_mm active"><a href="programme.html">方案</a></li>
+					<li class="menu_mm"><a href="contact.html">联系我们</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Home -->
+
+		<div class="home">
+			<div class="home_background_container prlx_parent">
+				<div class="home_background prlx" style="background-image:url(images/blog_background.jpg)"></div>
+			</div>
+			<div id="particles-js" style="width:100%;height: 100%;"></div>
+			<div class="home_title">
+				<h2>寻找你的解决方案，就像网上购物一样简单</h2>
+				<div class="next_section_scroll">
+					<div class="next_section nav_links" data-scroll-to=".blog">
+						<i class="fas fa-chevron-down trans_200"></i>
+						<i class="fas fa-chevron-down trans_200"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Solution 解决方案概括 -->
+	<div class="solution">
+		<div class="container">
+			<div class="row">
+				<h2>PlusBPM 全方位解决方案</h2>
+				<p>广泛的企业逐渐意识到大型系统（例如ERP、SCM、CRM）不能真的解决他们需要的端到端、跨应用的流程管控。
+					AWS BPM PaaS 平台是企业实现业务创新的关键，可以帮助用户更科学的管控企业各个业务环节，
+					通过采用 AWS BPM PaaS 平台和实施BPM解决方案可以明显让企业在运营效率、透明度与控制力和敏捷性方面受益。</p>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="card trans_300">
+						<div class="card-body">
+							<h3 class="card-title">平台解决方案</h3>
+							<h3 class="card-text">
+								<ul>
+									<li><a href="#">流程管理平台</a></li>
+									<li><a href="#">流程执行平台</a></li>
+									<li><a href="#">移动BPM</a></li>
+									<li><a href="#">云端BPM</a></li>
+								</ul>
+							</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card trans_300">
+						<div class="card-body">
+							<h3 class="card-title">行业解决方案</h3>
+							<h3 class="card-text">
+								<ul>
+									<li><a href="#">金融行业</a></li>
+									<li><a href="#">军工行业</a></li>
+									<li><a href="#">政府行业</a></li>
+									<li><a href="#">汽车行业</a></li>
+									<li><a href="#">制造行业</a></li>
+									<li><a href="#">医疗行业</a></li>
+								</ul>
+							</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="card trans_300">
+						<div class="card-body">
+							<h3 class="card-title">集成解决方案</h3>
+							<h3 class="card-text">
+								<ul>
+									<li><a href="#">SOA架构整合异构系统</a></li>
+									<li><a href="#">PlusBPM + SAP ERP</a></li>
+									<li><a href="#">PlusBPM + Orical EBS</a></li>
+									<li><a href="#">PlusBPM + 融云IM</a></li>
+									<li><a href="#">PlusBPM + 微软ShrePoint</a></li>
+									<li><a href="#">PlusBPM + 钉钉 微信</a></li>
+								</ul>
+							</h3>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Vertical Slider Section -->
+
+	<div class="v_slider_section">
+		<div class="container fill_height">
+			<div class="row fill_height">
+
+				<div class="col-lg-6 v_slider_section_image">
+					<div class="v_slider_image">
+						<img src="images/PlusBPM2.png" alt="">
+					</div>
+				</div>
+
+				<div class="col-lg-5 offset-lg-1 v_slider_content d-flex flex-column justify-content-center">
+					<div class="v_slider_container">
+
+						<!-- Vertical Slider -->
+						<div class="v_slider">
+
+							<!-- Vertical Slider Item -->
+							<div class="v_slider_item">
+								<h1>东航物流</h1>
+								<h2>军工航空航天</h2>
+								<h1></h1>
+								<h1></h1>
+								<p> 实现从业务诊断到智能化咨询落地的全链条服务：
+									项目分为三期，第一期：ARIS平移上线、第二期：核心流程诊断落地、第三期：流程全面诊断落地。
+									对东航物流目前500条流程进行ARIS平台平移，同时出具流程诊断分析报告。以PlusBPM擅长的流程咨询诊断及平台改造建设思路来实施。
+									同时，先梳理核心流程（投诉），再同步过渡到全流程,实现从业务诊断到智能化咨询落地的全链条服务。
+								</p>
+								<div class="person d-flex flex-row">
+									<div class="person_image">
+										<img src="images/customer_icon1.png" alt="">
+									</div>
+									<div class="person_meta">
+										<div class="person_name">Michael Smith</div>
+										<div class="person_title">CIO</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Vertical Slider Item -->
+							<div class="v_slider_item">
+								<h1>扬力集团</h1>
+								<h2>传统&高科制造</h2>
+								<h1></h1>
+								<h1></h1>
+								<p> 建设统一、专业的流程管理平台，支撑未来5-10年的流程精益化管理
+									支持灵活、可配置化的集成扩展，满足业务的变化和发展
+									建设初期关注费用管理，合同管理、资金管理为目标，长期以信息化驱动企业内部风控和标准化管理体系的建设
+									实现业务系统信息的高效集成，逐步打破“部门壁垒”，统一为企业战略输出价值。
+								</p>
+								<div class="person d-flex flex-row">
+									<div class="person_image">
+										<img src="images/customer_icon2.jpg" style="margin-top: 3px;">
+									</div>
+									<div class="person_meta">
+										<div class="person_name">Michael Smith</div>
+										<div class="person_title">Manager</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Vertical Slider Item -->
+							<div class="v_slider_item">
+								<h1>吉利</h1>
+								<h2>汽车&汽配</h2>
+								<h1></h1>
+								<h1></h1>
+								<p> 支撑集团的高速发展对业务模型和场景不断持续变革的需求。
+									集团HR、财务、研发、采购、制造、销售等大批量业务流程快速实现。
+									系统运行速度体验平均 ＜ 1.8s，开发需求更贴近实际开发环境，逻辑规则可读性强。
+									降低流程新开发代码工作量，提高流程开发效率：普通流程 1.4-3.5工作日，复杂流程 5-10工作日。
+									将前后端分离，逐步实现平台服务化。平台解耦，使架构更轻便，适应快速变化。</p>
+								<div class="person d-flex flex-row">
+									<div class="person_image">
+										<img src="images/customer_icon3.png" style="margin-top: 10px;">
+									</div>
+									<div class="person_meta">
+										<div class="person_name">Michael Smith</div>
+										<div class="person_title">Manager</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Vertical Slider Item -->
+							<div class="v_slider_item">
+								<h1>腾达</h1>
+								<h1>IT&互联网</h1>
+								<h1></h1>
+								<h1></h1>
+								<p> 搭建企业级的流程平台，为未来实现各专业业务平台（SAP、CRM、MES、HRMS、Agile 等）的数据打通提供的高效的工具 。
+									解决流程不统一、操作不统一、规范不统一，建立各领域的标准流程 。
+									建立企业岗位授权机制，减少授权工作 。
+									建立财务授权审核制度，提高财务管控水平，降低财务风险 。
+									实现国内分销线上管理，提升效率
+									采购业务关键数据的集中管理
+									建设高效的业务流程管理平台，打通端到端流程
+								</p>
+								<div class="person d-flex flex-row">
+									<div class="person_image">
+										<img src="images/customer_icon4.png" alt="">
+									</div>
+									<div class="person_meta">
+										<div class="person_name">Michael Smith</div>
+										<div class="person_title">Manager</div>
+									</div>
+								</div>
+							</div>
+
+							<!-- Vertical Slider Item -->
+							<!-- <div class="v_slider_item">
+									<h1>Fast support</h1>
+									<h1>to all our</h1>
+									<h1>clients. Just give</h1>
+									<h1>us a shout</h1>
+									<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pelle ntesque sit am et
+										tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis
+										effic iturut.</p>
+									<div class="person d-flex flex-row">
+										<div class="person_image">
+											<img src="images/person_1.png" alt="">
+										</div>
+										<div class="person_meta">
+											<div class="person_name">Michael Smith</div>
+											<div class="person_title">Manager</div>
+										</div>
+									</div>
+								</div> -->
+
+							<!-- Vertical Slider Item -->
+							<!-- <div class="v_slider_item">
+									<h1>Fast support</h1>
+									<h1>to all our</h1>
+									<h1>clients. Just give</h1>
+									<h1>us a shout</h1>
+									<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pelle ntesque sit am et
+										tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis
+										effic iturut.</p>
+									<div class="person d-flex flex-row">
+										<div class="person_image">
+											<img src="images/person_1.png" alt="">
+										</div>
+										<div class="person_meta">
+											<div class="person_name">Michael Smith</div>
+											<div class="person_title">Manager</div>
+										</div>
+									</div>
+								</div> -->
+
+							<!-- Vertical Slider Item -->
+							<!-- <div class="v_slider_item">
+									<h1>Fast support</h1>
+									<h1>to all our</h1>
+									<h1>clients. Just give</h1>
+									<h1>us a shout</h1>
+									<p>Etiam nec odio vestibulum est mattis effic iturut magna. Pelle ntesque sit am et
+										tellus blandit. Etiam nec odio vestibul. Etiam nec odio vestibulum est mattis
+										effic iturut.</p>
+									<div class="person d-flex flex-row">
+										<div class="person_image">
+											<img src="images/person_1.png" alt="">
+										</div>
+										<div class="person_meta">
+											<div class="person_name">Michael Smith</div>
+											<div class="person_title">Manager</div>
+										</div>
+									</div>
+								</div> -->
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- Blog -->
+
+	<div class="blog">
+
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-8">
+
+					<div class="blog_container">
+						<div class="post_container" data-masonry='{ "itemSelector": ".card", "gutter": 30 }'>
+
+							<div class="card trans_200">
+								<img class="card-img-top" src="images/customer4.jpg" alt="">
+								<div class="card-body">
+									<div class="card-header">打通SAP、实现"线上+线下" 业务深度协同</div>
+									<div class="card-title"><a href="blog_post.html">上海华谊（集团）</a></div>
+									<div class="card-text">
+										高效率的业务协同平台，不仅要整合部分下属单位已实施的办公自动化系统，而且还需与业务系统进行深度集成。
+									</div>
+								</div>
+							</div>
+
+							<div class="card trans_200">
+								<img class="card-img-top" src="images/customer2.jpg" alt="">
+								<div class="card-body">
+									<div class="card-header">企业管理应用，全员共创</div>
+									<div class="card-title"><a href="blog_post.html">新疆兵团</a></div>
+									<div class="card-text">
+										PlusBPM赋予新疆兵团人人自行构建新流程、新表单、新应用的能力，快速实现所有协同办公与政务服务的需求。
+									</div>
+								</div>
+							</div>
+
+							<div class="card trans_200">
+								<img class="card-img-top" src="images/customer3.jpg" alt="">
+								<div class="card-body">
+									<div class="card-header">实现项目管理移动化</div>
+									<div class="card-title"><a href="blog_post.html">中国电建</a></div>
+									<div class="card-text">
+										PlusBPM项目团队为华东院构建了HSE项目检查会诊系统，以业务流程管理BPM和即时通讯沟通工具钉钉为核心，
+										采用混合云（公有云+私有云）的部署架构，打通大业务模块，实现项目检查会诊的闭环管理。
+									</div>
+								</div>
+							</div>
+
+							<div class="card trans_200">
+								<img class="card-img-top" src="images/customer6.jpg" alt="">
+								<div class="card-body">
+									<div class="card-header">大型企业的流程治理</div>
+									<div class="card-title"><a href="blog_post.html">茂名石化</a></div>
+									<div class="card-text">
+										茂名石化经过多年的信息化建设和应用，ERP、MES、计量管理、企业信息门户等主要信息应用系统在企业经营管理和
+										生产管理层面得到深入应用，促进了企业精细化管理水平的提高。
+									</div>
+								</div>
+							</div>
+							
+							<div class="card trans_200">
+								<img class="card-img-top" src="images/customer5.jpg" alt="">
+								<div class="card-body">
+									<div class="card-header">助力企业实现战略导向下的整合创新之路</div>
+									<div class="card-title"><a href="blog_post.html">巨化集团</a></div>
+									<div class="card-text">
+										打造一个符合巨化集团未来五到十年的业务流程管理平台，为菊花构建了统一的业务流程管理平台、财务共享服务平台。
+									</div>
+								</div>
+							</div>
+							<div class="card trans_200">
+								<img class="card-img-top" src="images/customer1.jpg" alt="">
+								<div class="card-body">
+									<div class="card-header">制度流程化、业务协作化</div>
+									<div class="card-title"><a href="blog_post.html">中国中车</a></div>
+									<div class="card-text">
+										通过PlusBPM，建立从集团总部到各个子公司，包括管理层、智能部门、业务部门等内外系统。
+									</div>
+								</div>
+							</div>
+							
+
+						</div>
+					</div>
+
+
+				</div>
+
+				<div class="col-lg-4">
+
+					<!-- Sidebar -->
+
+					<div class="sidebar">
+
+						<div class="sidebar_search_container">
+
+							<!-- Sidebar Search -->
+							<form id="sidebar_search_form" class="sidebar_search_form bez_1">
+								<input id="sidebar_search_input" type="search" class="sidebar_search_input bez_1"
+									placeholder="搜索">
+								<button id="sidebar_search_button" type="submit" class="sidebar_search_button trans_300"
+									value="Submit">
+									<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+										xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18px"
+										height="18px" viewBox="0 0 100 100" enable-background="new 0 0 100 100"
+										xml:space="preserve">
+										<g>
+											<g>
+												<path class="search_path" fill="#909090" d="M89.354,10.609c-14.144-14.146-37.157-14.146-51.301,0c-6.852,6.853-10.625,15.964-10.625,25.655
+													c0,8.829,3.132,17.174,8.87,23.771l-4.32,4.321l-4.402-4.403c-0.482-0.482-1.137-0.754-1.819-0.754s-1.337,0.271-1.819,0.754
+													L3.31,80.584c-2.148,2.147-3.331,5.004-3.331,8.042s1.183,5.895,3.331,8.042C5.457,98.817,8.313,100,11.35,100
+													c3.038,0,5.894-1.184,8.041-3.331l20.627-20.631c0.482-0.482,0.753-1.137,0.753-1.819s-0.271-1.337-0.753-1.819l-4.403-4.403
+													l4.322-4.322c6.795,5.902,15.28,8.855,23.766,8.855c9.289,0,18.579-3.537,25.65-10.61c6.852-6.853,10.625-15.963,10.625-25.654
+													C99.979,26.573,96.205,17.462,89.354,10.609z M15.753,93.029c-1.176,1.177-2.739,1.824-4.403,1.824
+													c-1.663,0-3.227-0.648-4.403-1.824c-1.176-1.176-1.823-2.74-1.823-4.403s0.647-3.228,1.824-4.403L18.458,72.71l8.805,8.807
+													L15.753,93.029z M30.902,77.878l-8.805-8.807l3.659-3.66l8.806,8.808L30.902,77.878z M85.715,58.28
+													c-12.137,12.14-31.886,12.14-44.023,0c-5.88-5.881-9.118-13.699-9.118-22.016c0-8.316,3.238-16.135,9.118-22.016
+													c6.069-6.069,14.041-9.104,22.012-9.104c7.972,0,15.943,3.035,22.013,9.104c5.88,5.881,9.117,13.699,9.117,22.016
+													S91.596,52.399,85.715,58.28z"></path>
+											</g>
+										</g>
+										<g>
+											<g>
+												<path class="search_path" fill="#909090" d="M81.47,18.495c-9.797-9.798-25.736-9.798-35.533,0c-9.796,9.798-9.796,25.741,0,35.539
+													c4.898,4.898,11.333,7.349,17.766,7.349c6.435,0,12.868-2.45,17.767-7.349l0,0C91.266,44.235,91.266,28.293,81.47,18.495z
+													 M77.831,50.395c-7.79,7.791-20.466,7.791-28.256,0c-7.79-7.792-7.79-20.469,0-28.261c3.896-3.896,9.011-5.843,14.128-5.843
+													c5.116,0,10.233,1.948,14.128,5.843C85.621,29.925,85.621,42.603,77.831,50.395z"></path>
+											</g>
+										</g>
+										<g>
+											<g>
+												<path class="search_path" fill="#909090" d="M73.283,26.683c-5.282-5.283-13.877-5.283-19.16,0c-1.004,1.005-1.004,2.634,0,3.639
+													c1.005,1.005,2.634,1.005,3.639,0c3.276-3.276,8.607-3.276,11.884,0c0.502,0.503,1.16,0.754,1.818,0.754
+													c0.659,0,1.317-0.251,1.819-0.754C74.288,29.317,74.288,27.688,73.283,26.683z"></path>
+											</g>
+										</g>
+									</svg>
+								</button>
+
+							</form>
+
+						</div>
+
+						<!-- Sidebar Categories -->
+						<div class="sidebar_section categories_section">
+
+							<div class="sidebar_section_title">行业</div>
+							<div class="sidebar_categories">
+								<ul>
+									<li><a href="#">金融行业</a></li>
+									<li><a href="#">军工行业</a></li>
+									<li><a href="#">政府行业</a></li>
+									<li><a href="#">汽车行业</a></li>
+									<li><a href="#">制造行业</a></li>
+									<li><a href="#">医疗行业</a></li>
+									<li><a href="#">互联网行业</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Sidebar Gallery -->
+						<div class="sidebar_section gallery_section">
+
+							<div class="sidebar_section_title">用户界面</div>
+							<div class="gallery_container">
+								<ul
+									class="gallery_items d-flex flex-row align-items-start justify-content-between flex-wrap">
+									<li class="gallery_item">
+										<a class="colorbox"
+											href="https://images.unsplash.com/photo-1463704131914-97e5aaa0e339?auto=format&fit=crop&w=720&q=80">
+											<img src="images/gallery_1.jpg" _alt="https://unsplash.com/@matthewkane">
+										</a>
+									</li>
+									<li class="gallery_item">
+										<a class="colorbox"
+											href="https://images.unsplash.com/photo-1487260211189-670c54da558d?auto=format&fit=crop&w=720&q=80">
+											<img src="images/gallery_2.jpg" alt="https://unsplash.com/@emileseguin">
+										</a>
+									</li>
+									<li class="gallery_item">
+										<a class="colorbox"
+											href="https://images.unsplash.com/photo-1499763874088-6f30adc715b6?auto=format&fit=crop&w=678&q=80">
+											<img src="images/gallery_3.jpg" alt="https://unsplash.com/@naveenprajapat">
+										</a>
+									</li>
+									<li class="gallery_item">
+										<a class="colorbox"
+											href="https://images.unsplash.com/photo-1507915600431-5292809c5ab7?auto=format&fit=crop&w=720&q=80">
+											<img src="images/gallery_4.jpg" alt="https://unsplash.com/@saaout">
+										</a>
+									</li>
+									<li class="gallery_item">
+										<a class="colorbox"
+											href="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=720&q=80">
+											<img src="images/gallery_5.jpg" alt="">
+										</a>
+									</li>
+									<li class="gallery_item">
+										<a class="colorbox"
+											href="https://images.unsplash.com/photo-1493847242172-d46053a1f671?auto=format&fit=crop&w=720&q=80">
+											<img src="images/gallery_6.jpg" alt="https://unsplash.com/@joeypilgrim">
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						<!-- Sidebar Tags -->
+
+						<div class="sidebar_section tags_section">
+
+							<div class="sidebar_section_title">标签</div>
+
+							<div class="tags_container d-flex flex-row flex-wrap">
+								<div class="tag_item"><a href="#">低代码</a></div>
+								<div class="tag_item"><a href="#">高效率</a></div>
+								<div class="tag_item"><a href="#">简单</a></div>
+								<div class="tag_item"><a href="#">美观</a></div>
+								<div class="tag_item"><a href="#">管理集中</a></div>
+								<div class="tag_item"><a href="#">灵活</a></div>
+								<div class="tag_item"><a href="#">安全保证</a></div>
+							</div>
+						</div>
+
+						<!-- Sidebar Quote -->
+
+						<div class="sidebar_section quote_section">
+
+							<div class="sidebar_section_title">宗旨</div>
+							<div class="quote_quote"><img src="images/quote.svg" alt=""></div>
+							<p class="quote_text">用心对待每一个用户，时刻将最优异的解决之道与之分享；用最好地产品，给客户带来最大化的利益，创造第一无二的价值体验；打造各行业的口碑产品</p>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+
+	<!-- Newsletter -->
+
+	<div class="newsletter">
+			<div class="container">
+				<div class="newsletter_content">
+					<div class="row">
+						<div class="col-lg-4 col-sm-12">
+							PlusBPM
+						</div>
+						<div class="col-lg-1">
+							
+						</div>
+						<div class="col-lg-4 col-sm-12">
+							咨询热线：0034-37483、0034-37485
+						</div>
+						<div class="col-lg-3 col-sm-12">
+							售后热线：0034-37486
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-4">
+
+					<!-- Footer Intro -->
+					<div class="footer_intro">
+
+						<!-- Logo -->
+						<div class="logo footer_logo">
+							<a href="#">Plus<span>BPM</span></a>
+							<p>全球顶尖企业级BPM业务流程管理软件提供商</p>
+						</div>
+
+
+
+
+
+						<!-- Copyright -->
+
+
+					</div>
+
+				</div>
+
+				<!-- Footer Services -->
+				<!-- <div class="col-lg-2">
+
+						<div class="footer_col">
+							<div class="footer_col_title">服务</div>
+							<ul>
+								<li><a href="#"></a></li>
+								<li><a href="#">QQ</a></li>
+								<li><a href="#"></a></li>
+							</ul>
+						</div>
+
+						<div class="footer_col">
+							<div class="footer_col_title">Aditionals</div>
+							<ul>
+								<li><a href="#">Social media</a></li>
+								<li><a href="#">Management</a></li>
+								<li><a href="#">Branding</a></li>
+							</ul>
+						</div>
+
+					</div> -->
+
+				<!-- Footer Menu -->
+				<!-- <div class="col-lg-2">
+
+						<div class="footer_col">
+							<div class="footer_col_title">菜单</div>
+							<ul>
+								<li><a href="#">首页</a></li>
+								<li><a href="#">流程</a></li>
+								<li><a href="#">应用</a></li>
+								<li><a href="#">移动</a></li>
+								<li><a href="#">方案</a></li>
+								<li><a href="#">联系我们</a></li>
+							</ul>
+						</div>
+
+					</div> -->
+
+				<!-- Footer About -->
+				<div class="col-lg-3">
+
+					<div class="footer_col">
+						<div class="footer_col_title">关于我们</div>
+						<ul>
+							<li><a href="#">团队</a></li>
+							<li><a href="#">历史</a></li>
+							<li><a href="#">公司</a></li>
+							<li><a href="#">新闻</a></li>
+						</ul>
+					</div>
+
+				</div>
+
+				<!-- Footer Community -->
+				<div class="col-lg-2">
+
+					<div class="footer_col">
+						<div class="footer_col_title">社区</div>
+						<ul>
+							<li><a href="#">博客</a></li>
+							<li><a href="#">论坛</a></li>
+						</ul>
+					</div>
+
+				</div>
+				<!-- Social -->
+				<div class="col-lg-3">
+					<div class="footer_social">
+						<ul>
+							<li><a href="#"><i class="fab fa-weixin"></i></a></li>
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-weibo"></i></a></li>
+							<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+
+			</div>
+
+			<div class="row">
+
+				<div class="col">
+					<div class="footer_cr">
+						Copyright &copy;
+						<script>document.write(new Date().getFullYear());</script> 上海普加信息科技有限公司
+					</div>
+					<!-- Copyright -->
+					<!-- <div class="footer_cr_2">2017 All rights reserved</div> -->
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	</div>
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="styles/bootstrap4/popper.js"></script>
+	<script src="styles/bootstrap4/bootstrap.min.js"></script>
+	<script src="plugins/greensock/TweenMax.min.js"></script>
+	<script src="plugins/greensock/TimelineMax.min.js"></script>
+	<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+	<script src="plugins/greensock/animation.gsap.min.js"></script>
+	<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+	<script src="plugins/slick-1.8.0/slick.js"></script>
+	<script src="plugins/colorbox/jquery.colorbox-min.js"></script>
+	<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+	<script src="plugins/easing/easing.js"></script>
+	<script src="plugins/masonry/masonry.js"></script>
+	<script src="js/blog_custom.js"></script>
+	<script src="plugins/ToTop/move-top.js"></script>
+	<script src="plugins/particles/particles.min.js"></script>
+	<script src="plugins/particles/app.js"></script>
+	<script src="plugins/particles/lib/stats.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+			});
+		});
+
+		$(document).ready(function () {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+		});
+
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<div class="contact_icons">
+		<ul>
+			<li class="trans_300">
+				<a class="icon" href="#"><i class="fab fa-weixin"></i></a>
+				<a class="text ">在线<br/>QQ</a>
+			</li>
+			<li class="trans_300">
+				<a class="icon" href="#"><i class="fab fa-qq"></i></a>
+				<a class="text trans_300">在线<br/>微信</a>
+			</li>
+			<li class="trans_300">
+				<a class="icon" href="#"><i class="fa fa-phone"></i></a>
+				<a class="text ">联系<br/>我们</a>
+				<span class="show_content">0034-37483</span>
+			</li>
+		</ul>
+	</div>
+</body>
+
+</html>
